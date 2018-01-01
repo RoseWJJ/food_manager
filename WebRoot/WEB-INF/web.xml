@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>DeskServlet</servlet-name>
+    <servlet-class>com.et.controller.desk.DeskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddDeskServlet</servlet-name>
+    <servlet-class>com.et.controller.desk.AddDeskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteDeskServlet</servlet-name>
+    <servlet-class>com.et.controller.desk.DeleteDeskServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListFoodTypeServlet</servlet-name>
+    <servlet-class>com.et.controller.foodtype.ListFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFoodTypeServlet</servlet-name>
+    <servlet-class>com.et.controller.foodtype.DeleteFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFoodType</servlet-name>
+    <servlet-class>com.et.controller.foodtype.AddFoodType</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpDateFoodTypeServlet</servlet-name>
+    <servlet-class>com.et.controller.foodtype.UpDateFoodTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddFoodServlet</servlet-name>
+    <servlet-class>com.et.controller.food.AddFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFood</servlet-name>
+    <servlet-class>com.et.controller.food.DeleteFood</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdataFoodServlet</servlet-name>
+    <servlet-class>com.et.controller.food.UpdataFoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FoodList</servlet-name>
+    <servlet-class>com.et.controller.food.FoodList</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.et.controller.food.ImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderList</servlet-name>
+    <servlet-class>com.et.controller.order.OrderList</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DeskServlet</servlet-name>
+    <url-pattern>/DeskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddDeskServlet</servlet-name>
+    <url-pattern>/AddDesk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDeskServlet</servlet-name>
+    <url-pattern>/DeleteDeskServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListFoodTypeServlet</servlet-name>
+    <url-pattern>/ListFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFoodTypeServlet</servlet-name>
+    <url-pattern>/DeleteFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFoodType</servlet-name>
+    <url-pattern>/AddFoodType</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpDateFoodTypeServlet</servlet-name>
+    <url-pattern>/UpDateFoodTypeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFoodServlet</servlet-name>
+    <url-pattern>/AddFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFood</servlet-name>
+    <url-pattern>/DeleteFood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdataFoodServlet</servlet-name>
+    <url-pattern>/UpdataFoodServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodList</servlet-name>
+    <url-pattern>/FoodList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/ImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderList</servlet-name>
+    <url-pattern>/OrderList</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
